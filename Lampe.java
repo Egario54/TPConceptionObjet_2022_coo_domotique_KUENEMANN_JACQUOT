@@ -15,6 +15,10 @@ public class Lampe {
         this.allume = false;
     }
 
+    /**
+     *
+     * @return Sa description
+     */
     @Override
     public String toString() {
         return "Lampe{" +
