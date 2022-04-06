@@ -14,7 +14,7 @@ public class Telecommande {
     public void activerLampe(int indiceLampe){
         lampes.get(indiceLampe).allumer();
     }
-    public void eteindreLampe(int indiceLampe){
+    public void desactiverLampe(int indiceLampe){
         lampes.get(indiceLampe).eteindre();
     }
     public void activerTout(){
