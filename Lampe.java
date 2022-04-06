@@ -15,4 +15,11 @@ public class Lampe {
         this.allume = false;
     }
 
+    @Override
+    public String toString() {
+        return "Lampe{" +
+                "nom='" + nom + '\'' +
+                ", allume=" + allume +
+                '}';
+    }
 }
