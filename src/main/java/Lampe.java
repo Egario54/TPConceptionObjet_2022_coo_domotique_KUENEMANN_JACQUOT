@@ -15,15 +15,22 @@ public class Lampe {
         this.allume = false;
     }
 
+    public boolean isAllume() {
+        return allume;
+    }
+
     /**
-     *
+     * surcharge de la methode d'affichage sous la forme "nom+On" ou "nom+off"
      * @return Sa description
      */
     @Override
     public String toString() {
-        return "Lampe{" +
-                "nom='" + nom + '\'' +
-                ", allume=" + allume +
-                '}';
+        String s = "";
+        if (isAllume()) {
+            s = nom +": On";
+        }else {
+            s = nom +": off";
+        }
+        return s;
     }
 }
