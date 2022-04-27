@@ -29,4 +29,11 @@ public class Telecommande {
                 "lampes=" + lampes +
                 '}';
     }
+
+    /**
+     * Getter des lampes pour les tests
+     */
+    public List<Lampe> getLampes() {
+        return lampes;
+    }
 }

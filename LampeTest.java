@@ -1,5 +1,4 @@
 import org.junit.Test;
-import org.junit.jupiter.api.Test;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
@@ -86,7 +85,7 @@ public class LampeTest {
 		String r=""+l;
 
 		//verification
-		assertEquals("lampe1: Off",r,"affichage devrait etr off");
+		assertEquals("lampe1: Off",r,"affichage devrait etre off");
 	}
 
 	@Test
@@ -102,7 +101,7 @@ public class LampeTest {
 		String r=""+l;
 
 		//verification
-		assertEquals("lampe1: On",r,"affichage devrait etr off");
+		assertEquals("lampe1: On",r,"affichage devrait etre off");
 
 	}
 
